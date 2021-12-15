@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TP4_Android_RomainMahot</string>
+    <string name="tb_ChoisirProd">Choisissez vos produits!</string>
+    <string name="string_tb_choisirprod" />
+    <string name="cb_Café">Café</string>
+    <string name="cb_Burger">Burger</string>
+    <string name="btn_Valider">Valider</string>
+    <string name="tb_Chexkbox">Test de checkbox</string>
+    <string name="cb_Pizza">Pizza</string>
 </resources>

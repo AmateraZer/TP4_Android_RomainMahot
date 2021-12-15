@@ -15,52 +15,55 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
-            android:text="Test de chexkbox"
+            android:text="@string/tb_Chexkbox"
             android:textAlignment="center"
             android:textColor="@android:color/holo_green_dark"
             android:textSize="32sp"
             android:textStyle="bold" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@id/checkBox1"
+            android:layout_above="@id/checkBoxPizza"
             android:layout_marginBottom="30dp"
-            android:text="Choisissez vos produits!"
+            android:text="@string/string_tb_choisirprod"
             android:textAlignment="center"
             android:textColor="@android:color/background_dark"
             android:textSize="24sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold|italic"
+            tools:text="Choississez votre produit !" />
 
         <CheckBox
-            android:id="@+id/checkBox1"
+            android:id="@+id/checkBoxPizza"
             android:layout_width="78dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Pizza" />
+            android:text="@string/cb_Pizza" />
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkBoxCafe"
             android:layout_width="78dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/checkBox1"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="10dp"
-            android:text="Café" />
-
-        <CheckBox
-            android:id="@+id/checkBox3"
-            android:layout_width="78dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/checkBox2"
+            android:layout_below="@id/checkBoxPizza"
             android:layout_centerInParent="true"
             android:layout_marginTop="10dp"
-            android:text="Burger" />
+            android:text="@string/cb_Café" />
+
+        <CheckBox
+            android:id="@+id/checkBoxBurger"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkBoxCafe"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/cb_Burger" />
+
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonValider"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/checkBox3"
+            android:layout_below="@id/checkBoxBurger"
             android:layout_marginTop="10dp"
-            android:text="Valider " />
+            android:text="@string/btn_Valider" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
